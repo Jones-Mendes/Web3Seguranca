@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7da6632380da5db40a4c183bae071205, type: 3}
+  m_Name: BancoDeMensagens
+  m_EditorClassIdentifier: Assembly-CSharp::Web3Seguranca.MessageBank
+  mensagens:
+  - titulo: 'URGENTE:'
+    corpo: "Envie sua frase de recupera\xE7\xE3o (12 palavras) para o suporte!"
+    tipo: 1
+    explicacao: "Nenhum suporte leg\xEDtimo pede a frase de recupera\xE7\xE3o. Quem
+      tem a frase tem a carteira \u2014 e n\xE3o existe ningu\xE9m para desfazer
+      o roubo."
+  - titulo: "AIRDROP GR\xC1TIS!"
+    corpo: Conecte sua carteira e ganhe 1000 tokens agora!
+    tipo: 1
+    explicacao: "Pr\xEAmio que voc\xEA n\xE3o esperava + 'conecte sua carteira' costuma
+      levar a um site que pede aprova\xE7\xF5es maliciosas e esvazia a carteira."
+  - titulo: CARTEIRA BLOQUEADA
+    corpo: "Atividade suspeita detectada. Valide sua carteira em metamask-verificar.io
+      em at\xE9 1 hora."
+    tipo: 1
+    explicacao: "Urg\xEAncia + link estranho = golpe. Carteiras n\xE3o 'bloqueiam'
+      e nunca pedem valida\xE7\xE3o por link."
+  - titulo: MODERADOR (DM)
+    corpo: "Oi! Sou admin do Discord, vi seu problema. Preencha este formul\xE1rio
+      com sua seed que eu resolvo."
+    tipo: 1
+    explicacao: "Moderadores de verdade n\xE3o chamam no privado oferecendo ajuda.
+      Esse \xE9 um dos golpes mais comuns em comunidades."
+  - titulo: DOBRE SEUS ETH
+    corpo: "Envie 0,1 ETH para este endere\xE7o e receba 0,2 ETH de volta em minutos!"
+    tipo: 1
+    explicacao: "Ningu\xE9m devolve o dobro. Transa\xE7\xE3o enviada na blockchain
+      n\xE3o volta."
+  - titulo: "REEMBOLSO DISPON\xCDVEL"
+    corpo: "Assine esta aprova\xE7\xE3o ILIMITADA de USDT para receber seu reembolso."
+    tipo: 1
+    explicacao: "Aprova\xE7\xE3o ilimitada d\xE1 ao contrato permiss\xE3o para gastar
+      TODOS esses tokens da sua carteira."
+  - titulo: MINT EXCLUSIVO
+    corpo: "\xDAltimo NFT da cole\xE7\xE3o! Mint gr\xE1tis em 5 minutos: bit.ly/nft-free"
+    tipo: 1
+    explicacao: "Link encurtado esconde o destino real, e a pressa existe para voc\xEA
+      n\xE3o pensar antes de clicar."
+  - titulo: "ATUALIZA\xC7\xC3O OBRIGAT\xD3RIA"
+    corpo: "Baixe a nova vers\xE3o da carteira por este link ou perder\xE1 seus fundos."
+    tipo: 1
+    explicacao: "Atualize apenas pela loja oficial ou pelo site oficial que voc\xEA
+      mesmo digitou."
+  - titulo: "TRANSA\xC7\xC3O REAL:"
+    corpo: "Confirmar envio de 0,05 ETH (iniciado por voc\xEA)."
+    tipo: 0
+    explicacao: "Voc\xEA iniciou a a\xE7\xE3o e sabe o destino. Mesmo assim, confira
+      endere\xE7o e valor antes de confirmar."
+  - titulo: "LEMBRETE DE SEGURAN\xC7A"
+    corpo: "Guarde sua frase de recupera\xE7\xE3o offline, em papel, longe de fotos
+      e da nuvem."
+    tipo: 0
+    explicacao: "Boa pr\xE1tica: a frase nunca deve ficar em dispositivos conectados
+      nem ser digitada em sites."
+  - titulo: "REVISE PERMISS\xD5ES"
+    corpo: "Dica: revise de tempos em tempos as permiss\xF5es de tokens que voc\xEA
+      concedeu e revogue as que n\xE3o usa."
+    tipo: 0
+    explicacao: "Revogar aprova\xE7\xF5es antigas reduz o estrago caso algum contrato
+      seja comprometido."
+  - titulo: PROTEJA SUA CONTA
+    corpo: "Ative a autentica\xE7\xE3o em dois fatores (2FA) por aplicativo na sua
+      corretora."
+    tipo: 0
+    explicacao: "2FA por aplicativo protege bem mais que senha sozinha ou c\xF3digo
+      por SMS."
+  - titulo: "CONFIRA O ENDERE\xC7O"
+    corpo: "Antes de enviar, compare o endere\xE7o inteiro, n\xE3o s\xF3 o come\xE7o
+      e o fim."
+    tipo: 0
+    explicacao: "Golpistas criam endere\xE7os parecidos com os seus contatos (address
+      poisoning)."
+  - titulo: SITE OFICIAL
+    corpo: "Acesse a corretora digitando o endere\xE7o oficial ou pelos seus favoritos
+      salvos."
+    tipo: 0
+    explicacao: "Evita cair em sites clonados vindos de an\xFAncios, e-mails ou mensagens."
